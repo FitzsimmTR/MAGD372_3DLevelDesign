@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.42f1 (2dcb6a0abc42) revision 3001194'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16005 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32389 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/GitHub/MAGD372_3DLevelDesign/MAGD 372_3D Level Design
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57542
+60571
 Successfully changed project path to: C:/GitHub/MAGD372_3DLevelDesign/MAGD 372_3D Level Design
 C:/GitHub/MAGD372_3DLevelDesign/MAGD 372_3D Level Design
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/GitHub/MAGD372_3DLevelDesign/MAGD 372_3D Level Design
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [836]  Target information:
+Player connection [34692]  Target information:
 
-Player connection [836]  * "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 3581013110 [EditorId] 3581013110 [Version] 1048832 [Id] WindowsEditor(7,Yoda) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [34692]  * "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 3008672890 [EditorId] 3008672890 [Version] 1048832 [Id] WindowsEditor(7,Yoda) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [836] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [836] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34692] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34692] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 2296.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.194894 seconds.
-- Loaded All Assemblies, in  7.999 seconds
+Registered in 0.006330 seconds.
+- Loaded All Assemblies, in  0.326 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.233 seconds
-Domain Reload Profiling: 8229ms
-	BeginReloadAssembly (6090ms)
+- Finished resetting the current domain, in  0.289 seconds
+Domain Reload Profiling: 614ms
+	BeginReloadAssembly (96ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (538ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (246ms)
-	LoadAllAssembliesAndSetupDomain (1113ms)
-		LoadAssemblies (6087ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (93ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1111ms)
-			TypeCache.Refresh (1109ms)
-				TypeCache.ScanAssembly (768ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (233ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (289ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (191ms)
+		SetupLoadedEditorAssemblies (238ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (128ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,54 +118,54 @@ Domain Reload Profiling: 8229ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  9.108 seconds
+- Loaded All Assemblies, in  0.627 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.977 seconds
-Domain Reload Profiling: 10079ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 1306ms
+	BeginReloadAssembly (157ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (27ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (8896ms)
-		LoadAssemblies (8250ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (306ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (726ms)
-			TypeCache.Refresh (700ms)
-				TypeCache.ScanAssembly (630ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (977ms)
+	FinalizeReload (683ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (841ms)
+		SetupLoadedEditorAssemblies (554ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (742ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (453ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 6.01 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4095 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (1.3 MB). Loaded Objects now: 4585.
-Memory consumption went from 178.2 MB to 176.8 MB.
-Total: 3.681500 ms (FindLiveObjects: 0.238300 ms CreateObjectMapping: 0.172300 ms MarkObjects: 2.859900 ms  DeleteObjects: 0.409800 ms)
+Memory consumption went from 178.0 MB to 176.6 MB.
+Total: 2.981600 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.128300 ms MarkObjects: 2.278800 ms  DeleteObjects: 0.297200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,406 +183,227 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 87503.006508 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat
-  artifactKey: Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat using Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 434197.579422 seconds.
+  path: Assets/Blockout/Prefabs/Stairs & Slopes/Stairs_Closed_2x3x6.prefab
+  artifactKey: Guid(f37a5e1c5033c314aa44f93ee734ab59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Stairs & Slopes/Stairs_Closed_2x3x6.prefab using Guid(f37a5e1c5033c314aa44f93ee734ab59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a78edb7c2d77425e4fe58266e4b13b7d') in 0.131531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Packages/com.unity.probuilder/Content/Material/Checker.mat
-  artifactKey: Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Material/Checker.mat using Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '78a8dd5b6524279b27ecfbe3cbb888cb') in 0.030787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat
-  artifactKey: Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat using Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7d546bde5b4b4f3f403b4ac52f8963be') in 0.007324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1317.256607 seconds.
-  path: Assets/Blockout/Prefabs/Abstract/Abstact_Floating_2x2x3.prefab
-  artifactKey: Guid(5fe7062088052474391f4044156703c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Abstract/Abstact_Floating_2x2x3.prefab using Guid(5fe7062088052474391f4044156703c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '13a5f2b00074f9061716f048289c1dac') in 0.101698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Blockout/Prefabs/Abstract/Abstarct_Gate_2.prefab
-  artifactKey: Guid(0012e0e78b8abb14f920d8cf5a8722a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Abstract/Abstarct_Gate_2.prefab using Guid(0012e0e78b8abb14f920d8cf5a8722a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'eea54b91c4ffdf7c38d03d19a8b76a24') in 0.023887 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Barrel_Old.prefab
-  artifactKey: Guid(2959c6b2cd9c94f418883ecdde9f44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Barrel_Old.prefab using Guid(2959c6b2cd9c94f418883ecdde9f44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1855d5a37b670fa99e5ecb15c8a41e40') in 0.025214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_1x3x3.prefab
-  artifactKey: Guid(cce58801c905d38428566430d7eb5309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_1x3x3.prefab using Guid(cce58801c905d38428566430d7eb5309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2e2e69310f9d38b8bc751cbe31a78871') in 0.057753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_1x5x5.prefab
-  artifactKey: Guid(679680ac1c1c31b498897318bbf13363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_1x5x5.prefab using Guid(679680ac1c1c31b498897318bbf13363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '353cea306d89224503dfc93e142142cb') in 0.020456 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_3x05x05.prefab
-  artifactKey: Guid(b6004cbd47b79d645ab91695a55c6454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_3x05x05.prefab using Guid(b6004cbd47b79d645ab91695a55c6454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7b669a3fd42e1512f4c554d9665e97a7') in 0.028855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_05x2x2.prefab
-  artifactKey: Guid(4196b31492f639c4e8d0e2ceda067240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_05x2x2.prefab using Guid(4196b31492f639c4e8d0e2ceda067240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b9d79082c900bcc3a8be874b833e9e50') in 0.020186 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_1x5x3.prefab
-  artifactKey: Guid(15ceadab9f2869a4889ac734782631b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_1x5x3.prefab using Guid(15ceadab9f2869a4889ac734782631b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0768cc3e02931c2006fbd85c339b5ec7') in 0.021244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_05x05x05.prefab
-  artifactKey: Guid(83bafed0d48c90945b9fb599a28f7c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_05x05x05.prefab using Guid(83bafed0d48c90945b9fb599a28f7c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '50ab6ae50ddd09c3210bdb486b8a1736') in 0.021370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Aircon_1.prefab
-  artifactKey: Guid(74d3a8cd1112f234593744d577d2ca7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Aircon_1.prefab using Guid(74d3a8cd1112f234593744d577d2ca7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0653e38559b6980d81f39f1a650ccbc7') in 0.020719 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_1x4x2.prefab
-  artifactKey: Guid(03e346b2ac44b784cba1bcd9d09140ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_1x4x2.prefab using Guid(03e346b2ac44b784cba1bcd9d09140ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e71b78f355b1e56a5e6db5105eb8b3cb') in 0.020835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x1x4.prefab
-  artifactKey: Guid(c46eb19cc9242e746a5e47e2de3cf935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x1x4.prefab using Guid(c46eb19cc9242e746a5e47e2de3cf935) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '88ed8bca17ff674cc3d3fc490dc1c529') in 0.028766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_1x4x1.prefab
-  artifactKey: Guid(90ff05ffd01250b46b8c9176faf61247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_1x4x1.prefab using Guid(90ff05ffd01250b46b8c9176faf61247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '50aba78892fa7014daede1277527c15e') in 0.020630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Blockout/Prefabs/Abstract/Abstract_Antena_1.prefab
-  artifactKey: Guid(ec6a728b691981e40b9c3ad7930884b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Abstract/Abstract_Antena_1.prefab using Guid(ec6a728b691981e40b9c3ad7930884b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c79f90a459319954c25ab47c859c6b21') in 0.021888 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_1x4x1.prefab
-  artifactKey: Guid(3ccf50e4f95eeda4abf4374d2a47c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_1x4x1.prefab using Guid(3ccf50e4f95eeda4abf4374d2a47c9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7a5e627f07855e5369c9fe11ae5a34ae') in 0.021807 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_1x4x3.prefab
-  artifactKey: Guid(8ef0889161176b142add3f9dc03003c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_1x4x3.prefab using Guid(8ef0889161176b142add3f9dc03003c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5a3acfd266c61f520a9419360de5bb5c') in 0.033958 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_05x2x05.prefab
-  artifactKey: Guid(c3f1d4c559f90f247a330ee5a74b56b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_05x2x05.prefab using Guid(c3f1d4c559f90f247a330ee5a74b56b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7f982f23e1c4af3df696198601cd8459') in 0.031569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Barricade.prefab
-  artifactKey: Guid(1910456fc5fb5774998c8843531e1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Barricade.prefab using Guid(1910456fc5fb5774998c8843531e1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4179f7257c51505f2f63f5c4acc16655') in 0.025496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_05x4x4.prefab
-  artifactKey: Guid(4459fac03eb66bb4eb306681709ee5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_05x4x4.prefab using Guid(4459fac03eb66bb4eb306681709ee5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5df8fe1aa26d75e7b2050941ae62d6a5') in 0.020292 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_05x1x05.prefab
-  artifactKey: Guid(378ab5436c0ec0a42b0998983d17f7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_05x1x05.prefab using Guid(378ab5436c0ec0a42b0998983d17f7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0113a2c5dc906053326fb5fe6f8fe715') in 0.019258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blockout/Prefabs/Dynamic/Barricade_Broke_2.prefab
-  artifactKey: Guid(309b16dc7a0c492429187704258ca5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Dynamic/Barricade_Broke_2.prefab using Guid(309b16dc7a0c492429187704258ca5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '79e3ae0be8f8bd397d6d22db6ea4f9da') in 0.022070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_05x1x1.prefab
-  artifactKey: Guid(d0c52d16059aeae40a5d4fbdf47ed805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_05x1x1.prefab using Guid(d0c52d16059aeae40a5d4fbdf47ed805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b91019e341fbfc2164439ffbc108971b') in 0.019362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_05x5x05.prefab
-  artifactKey: Guid(9e4016262da7a5e40bec73e96204e042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_05x5x05.prefab using Guid(9e4016262da7a5e40bec73e96204e042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b03a1952a38d1c879f27eae074ea3065') in 0.020419 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x1x3.prefab
-  artifactKey: Guid(7c732d7cc225f8349898a851dd85e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x1x3.prefab using Guid(7c732d7cc225f8349898a851dd85e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '125a9a17d31265b34d77926bd4a7f8ef') in 0.021013 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_2x2x2.prefab
-  artifactKey: Guid(5b832f6a8d2b46243a12751c3340b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_2x2x2.prefab using Guid(5b832f6a8d2b46243a12751c3340b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '53670ac61572a1d66efa5e37ced32cdc') in 0.021303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_1x025x1.prefab
-  artifactKey: Guid(053e4bf573bbc17408e0b8a61d7927a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_1x025x1.prefab using Guid(053e4bf573bbc17408e0b8a61d7927a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'eed815669114e51396cabd6c309dee9b') in 0.021049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_1x2x1.prefab
-  artifactKey: Guid(2891cc77c537ec54394de6e26f1ff7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks_Bent/Block_Bend_1x2x1.prefab using Guid(2891cc77c537ec54394de6e26f1ff7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b662c924fb765aee46807fb99f7dd652') in 0.018911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_4x4x4.prefab
-  artifactKey: Guid(5dcde572d1e89bb4f98f8fa1cb27867a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_4x4x4.prefab using Guid(5dcde572d1e89bb4f98f8fa1cb27867a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '94ffb4240ebb85cc50c6afc2bb9a8f9f') in 0.020587 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x1x2.prefab
-  artifactKey: Guid(8526f0400d37f7045a470cfb91f0218a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x1x2.prefab using Guid(8526f0400d37f7045a470cfb91f0218a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e6ddf8b6000671782b6abdc74137b0fa') in 0.019884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_1x2x1.prefab
-  artifactKey: Guid(0f525598b2479ed46b967f6f863306d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_1x2x1.prefab using Guid(0f525598b2479ed46b967f6f863306d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c3545001bae81f37c03d9eaa7f3e39fe') in 0.023532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_1x05x4.prefab
-  artifactKey: Guid(da1f95bbb0333ac48bd5f6acaed6aabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_1x05x4.prefab using Guid(da1f95bbb0333ac48bd5f6acaed6aabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e760a916837c102bb64488c0093b9d25') in 0.021919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_1x05x2.prefab
-  artifactKey: Guid(248172b9c3c6bd846a31a1050bf9594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Floor/Blocks Floor Slope/Block_1x05x2.prefab using Guid(248172b9c3c6bd846a31a1050bf9594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dc34041d8a8c393fa6470a38cef9550a') in 0.021839 seconds
+ -> (artifact id: '8d44e046be03a840158c07c91cc7caa4') in 0.110319 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
   Time since last request: 0.000051 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_3x3x3.prefab
-  artifactKey: Guid(7577dc6bb69a1e34d97049ae9169a8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_3x3x3.prefab using Guid(7577dc6bb69a1e34d97049ae9169a8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  path: Assets/Blockout/Prefabs/Stairs & Slopes/Stairs_Small_Corner1_1x025x1.prefab
+  artifactKey: Guid(87524157bbf537f4ca62542e01d17561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Stairs & Slopes/Stairs_Small_Corner1_1x025x1.prefab using Guid(87524157bbf537f4ca62542e01d17561) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd882cb24f2335b6ad8a36325bbd7f4ee') in 0.021892 seconds
+ -> (artifact id: '2c4562d3ea16a43aa4e569b3ca767bc1') in 0.025993 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_1x1x1.prefab
-  artifactKey: Guid(3315ee48ccc2bce4fa73c4b39288def4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_1x1x1.prefab using Guid(3315ee48ccc2bce4fa73c4b39288def4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Blockout/Prefabs/Stairs & Slopes/Stairs_Closed_2x1x2.prefab
+  artifactKey: Guid(22f65c88c32d25144b7691cf00478a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Stairs & Slopes/Stairs_Closed_2x1x2.prefab using Guid(22f65c88c32d25144b7691cf00478a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4712d63763cabf56164dcf1fbecba345') in 0.021201 seconds
+ -> (artifact id: '54c8bdd0c50baf2f02e62e2c729aed01') in 0.028365 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_05x3x05.prefab
-  artifactKey: Guid(ce30a830bbee9764bab58388afcb2a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_05x3x05.prefab using Guid(ce30a830bbee9764bab58388afcb2a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Blockout/Prefabs/Stairs & Slopes/Slope_Bend_4x3x4.prefab
+  artifactKey: Guid(6fdc3037222ca4c4baeb48d7c6be3f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Stairs & Slopes/Slope_Bend_4x3x4.prefab using Guid(6fdc3037222ca4c4baeb48d7c6be3f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7e03f71a9769422f79ef57f2e236883a') in 0.019149 seconds
+ -> (artifact id: 'd41e19b7379640ffa2ebd36cf39c23ac') in 0.023991 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x2x4.prefab
-  artifactKey: Guid(cd595647b6580ec4ea1440a7dd28a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Blocks Walls bent/Block_Bend_05x2x4.prefab using Guid(cd595647b6580ec4ea1440a7dd28a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 1155.115233 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x1x3.prefab
+  artifactKey: Guid(26bf846e2ef881f40bed32681df9504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x1x3.prefab using Guid(26bf846e2ef881f40bed32681df9504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c8238df871d26df94a911cc11daafecb') in 0.019990 seconds
+ -> (artifact id: '5655e2bb644a8c9dc94d3d870e1b296b') in 0.027745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.002703 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x2x3.prefab
+  artifactKey: Guid(af0a592e1a6e8964cb93d4bf0edde018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x2x3.prefab using Guid(af0a592e1a6e8964cb93d4bf0edde018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ed082959fce7c48242f96ce5a0651e2c') in 0.022175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x3x2.prefab
+  artifactKey: Guid(baa96e1b6229d1a429c31a1631930e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x3x2.prefab using Guid(baa96e1b6229d1a429c31a1631930e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '589c7a697dbf88f5dc7766c00dda13d1') in 0.028711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x025x2.prefab
+  artifactKey: Guid(741d9d230a13fc34eb1e17c518c2b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x025x2.prefab using Guid(741d9d230a13fc34eb1e17c518c2b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b92d873a85f9612b4731f3be3bad8f25') in 0.033109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x3x4.prefab
+  artifactKey: Guid(d993f347c9c000d44b43303b2232b0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x3x4.prefab using Guid(d993f347c9c000d44b43303b2232b0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7edd9e4309da44c06bc6f6ad0dfbd38a') in 0.022037 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Blockout/Prefabs/Blocks Basic/Block_05x2x1.prefab
-  artifactKey: Guid(e962c631de953c14b8fff30aeb78c38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockout/Prefabs/Blocks Basic/Block_05x2x1.prefab using Guid(e962c631de953c14b8fff30aeb78c38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  path: Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x1x4.prefab
+  artifactKey: Guid(c227446a32d6d2f438aea5fb82d4753f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Bend/Wall_Bend_025x1x4.prefab using Guid(c227446a32d6d2f438aea5fb82d4753f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0ffb4f7dd65524af79bbbc099bdaf571') in 0.020268 seconds
+ -> (artifact id: '711e103bc00b55fc516c076322cbc419') in 0.024411 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.097980 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Destoryed_End_T1_025x3x1.prefab
+  artifactKey: Guid(3d9093eb9a2fc0d438f1cbdb4da8cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Destoryed_End_T1_025x3x1.prefab using Guid(3d9093eb9a2fc0d438f1cbdb4da8cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ee6549cc4f067d77894bd97a32a7754') in 0.020089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Destroyed_025x1x4.prefab
+  artifactKey: Guid(a20e1c923c69aa3439b1fe42da03adfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Destroyed_025x1x4.prefab using Guid(a20e1c923c69aa3439b1fe42da03adfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c40399502fabcf3b2dbfbbd02ba3b9f6') in 0.020121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Destroyed_Hole_025x3x2.prefab
+  artifactKey: Guid(5fba74dc28fe4f24b808de0f1f0ba444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Destroyed_Hole_025x3x2.prefab using Guid(5fba74dc28fe4f24b808de0f1f0ba444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1bd4392daa51ab822ba9418d07fdca56') in 0.019530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Destroyed_Hole_025x3x3.prefab
+  artifactKey: Guid(b081d357336f57c4bb3ef149aad4538a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Destroyed_Hole_025x3x3.prefab using Guid(b081d357336f57c4bb3ef149aad4538a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a35f9dc0eb50ea268be1cddbc4d95ba') in 0.019558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Side_Destroyed_T1_025x1x2.prefab
+  artifactKey: Guid(8e8ee04996df9bb4699e37a16ac36c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Side_Destroyed_T1_025x1x2.prefab using Guid(8e8ee04996df9bb4699e37a16ac36c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3b86c2b0fc52e6ebdeb344f809af8d85') in 0.026675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Side_Destroyed_025x1x3.prefab
+  artifactKey: Guid(9f06027bfdb30bb43adb71c8069fd4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Prefabs/Walls/Walls Destroyed/Wall_Side_Destroyed_025x1x3.prefab using Guid(9f06027bfdb30bb43adb71c8069fd4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0712d4776953752e0593e602d5293612') in 0.025501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.830 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 14.224 seconds
+Domain Reload Profiling: 17052ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (2594ms)
+		LoadAssemblies (2656ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (14225ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (581ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4020 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (1.3 MB). Loaded Objects now: 4596.
+Memory consumption went from 165.2 MB to 163.9 MB.
+Total: 3.625100 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.106400 ms MarkObjects: 3.007300 ms  DeleteObjects: 0.262600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
